@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Styles/index.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <form class="container-fluid justify-content-end">
+          <button class="btn btn-outline-danger me-2" id="logout" type="button">Logout</button>
+        </form>
+    </nav>
+    <div id="main-container">
+        <div id="title">Add Products</div>
+        <div id="inputs">
+            <input type="text" id="pname" placeholder="Product Name"  class="inps"/>
+            <input type="text" id="pdesc" placeholder="Product Description" class="inps"/>
+            <input type="number" id="pprice" placeholder="Product Price" class="inps"/>
+            <button id="btn" class="btn1">Add</button>
+        </div>
+        
+    </div>
+    <br>
+    <div id="display">
+        <div id="title2">Products List</div>
+        <div id="details" class="lists">
+
+        </div>
+        <br>
+        <div id="update">
+    
+        </div>
+    </div>
+    
+    <script src="JS/index.js"></script>
+</body>
+</html>
